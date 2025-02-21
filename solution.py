@@ -1,5 +1,5 @@
-# Problem: Reverse a String
-def reverse_string(s):
-    return s[::-1]
+# Problem: Find Factorial
+def factorial(n):
+    return 1 if n == 0 else n * factorial(n - 1)
 
-print(reverse_string("hello"))
+print(factorial(5))

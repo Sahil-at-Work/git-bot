@@ -1,5 +1,5 @@
-# Problem: Sum of List
-def sum_list(lst):
-    return sum(lst)
+# Problem: Reverse a String
+def reverse_string(s):
+    return s[::-1]
 
-print(sum_list([1, 2, 3, 4, 5]))
+print(reverse_string("hello"))
